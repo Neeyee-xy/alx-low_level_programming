@@ -1,22 +1,24 @@
 #include <stdio.h>
-#include <main.h>
 #include <string.h>
+void print_alphabet(void);
+#include "main.c"
+
+int main(void);
+void print_alphabet(void){
+	char ch = 'a';
+
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+
+	putchar('\n');
+}
 
 
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-void print_alphabet(void);
-void print_alphabet(void){
-	char ch;
 
-	ch = 'a';
 
-	while (ch <= 'z')
-	{
-		_putchar(ch);
-		ch++;
-	}
-
-	_putchar('\n');
-}
