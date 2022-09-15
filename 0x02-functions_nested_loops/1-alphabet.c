@@ -2,10 +2,10 @@
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-print_alphabet();
+char print_alphabet();
 int main(void)
 {
-    print_alphabet();
+  char print_alphabet();
     return (0);
 }
 char print_alphabet(){
