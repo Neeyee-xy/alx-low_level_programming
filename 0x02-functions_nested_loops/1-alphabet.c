@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include "main.c"
 void print_alphabet(void);
 int main(void);
