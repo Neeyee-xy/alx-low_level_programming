@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "main.c"
+int main(void);
 void print_alphabet(void){
 	char ch = 'a';
 
@@ -10,7 +12,7 @@ void print_alphabet(void){
 
 	putchar('\n');
 }
-#include "main.c"
+
 
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
