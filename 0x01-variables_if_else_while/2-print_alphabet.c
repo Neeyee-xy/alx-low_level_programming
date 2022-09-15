@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char alph=''a';
+	char alph='a';
 		while(alpha <='z')
 		{
 			putchar('%c',alpha);
