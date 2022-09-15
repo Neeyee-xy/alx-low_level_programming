@@ -3,7 +3,7 @@
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
 
-int main(){
+vold main(vold){
 void print_alphabet(void);
 
 }
