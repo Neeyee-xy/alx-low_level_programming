@@ -5,7 +5,7 @@
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
 
-print_alphabet(){
+char print_alphabet(){
 	char ch = 'a';
 
 	while (ch <= 'z')
