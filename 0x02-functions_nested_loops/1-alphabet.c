@@ -2,13 +2,13 @@
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-char print_alphabet();
+char print_alphabet(void);
 int main(void)
 {
-  char print_alphabet();
+  char print_alphabet(void);
     return (0);
 }
-char print_alphabet(){
+char print_alphabet(void){
 	char ch;
 
 	ch = 'a';
