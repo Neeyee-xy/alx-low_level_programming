@@ -1,11 +1,13 @@
-#include <stdio.h>
-#include <string.h>
-void print_alphabet(void);
-#include "main.c"
+#include "main.h"
 
-int main(void);
-void print_alphabet(void){
-	char ch = 'a';
+/**
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line
+ */
+void print_alphabet(void)
+{
+	char ch;
+
+	ch = 'a';
 
 	while (ch <= 'z')
 	{
@@ -15,10 +17,3 @@ void print_alphabet(void){
 
 	putchar('\n');
 }
-
-
-/**
- * print_alphabet - prints the alphabet, in lowercase, followed by a new line
- */
-
-
