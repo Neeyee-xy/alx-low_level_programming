@@ -2,6 +2,6 @@
   /**
   *this update pointer
   */
-  int mul(int *n){
+  void reset_to_98(int *n){
 	*n= 98;
 }
